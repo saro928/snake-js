@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake</title>
+    <style>
+      * {
+        font-family: Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #status {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+
+      #score {
+        font-size: 2rem;
+        margin-top: 1rem;
+      }
+
+      #canvas {
+        border: 3px solid lightseagreen;
+      }
+
+      #credit {
+        margin-top: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="status"></div>
+
+    <canvas id="canvas" width="600" height="300"></canvas>
+
+    <div id="score"></div>
+
+    <a id="credit" href="https://github.com/saro928" target="_blank"
+      >By saro928</a
+    >
+
+    <script src="dist/main.js"></script>
+  </body>
+</html>
